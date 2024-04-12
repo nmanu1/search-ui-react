@@ -8,6 +8,7 @@ import React from 'react';
 
 /**
  * The CSS class interface used for {@link AlternativeVerticals}.
+ * TEST
  *
  * @public
  */

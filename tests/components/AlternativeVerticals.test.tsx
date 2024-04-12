@@ -42,7 +42,7 @@ describe('AlternativeVerticals', () => {
 
   it('displays vertical suggestions corresponding to what is specified in verticalConfigMap', () => {
     render(<AlternativeVerticals {...alternativeVerticalsProps}/>);
-    expect(screen.getByText('FAQs - 1 result')).toBeDefined();
+    expect(screen.getByText('FAQs - 1 result')).not.toBeDefined();
     expect(screen.getByText('Events - 2 results')).toBeDefined();
   });
 
